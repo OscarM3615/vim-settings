@@ -22,7 +22,6 @@ set updatetime=300 " reduce the update time
 
 autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4
 autocmd FileType gitcommit setlocal colorcolumn=50
-autocmd FileType tex,latex,plaintex setlocal wrap
 
 " Try to merge numbers column with errors column.
 if has('patch-8.1.1564')
@@ -76,10 +75,6 @@ nmap <leader>gs :G<CR>
 nmap <leader>gc :Gcommit<CR>
 nmap <leader>gk :Gpush<CR>
 nmap <leader>gj :Gpull<CR>
-nnoremap <silent> <leader>lc :!pdflatex %<CR>
-nnoremap <silent> <leader>lx :!xelatex %<CR>
-nnoremap <silent> <leader>lr :!bibtex $(echo % \| sed 's/\.tex$//')<CR>
-nnoremap <silent> <leader>lo :!mupdf $(echo % \| sed 's/tex$/pdf/') & disown<CR><CR>
 
 inoremap <silent> <C-@> <C-x><C-o>
 inoremap <silent><expr> <TAB>
