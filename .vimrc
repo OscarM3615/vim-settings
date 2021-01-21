@@ -42,7 +42,6 @@ Plug 'preservim/nerdtree' " files explorer
 Plug 'Xuyuanp/nerdtree-git-plugin' " git status flags on explorer
 Plug 'vim-airline/vim-airline' " enhance the bottom bar
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language server
-Plug 'honza/vim-snippets' " useful snippets
 Plug 'mattn/emmet-vim' " emmet support
 Plug 'https://tpope.io/vim/fugitive.git' " git hints for airline
 Plug 'sheerun/vim-polyglot' " multiple language support
