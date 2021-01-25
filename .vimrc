@@ -22,6 +22,7 @@ set updatetime=300 " reduce the update time
 
 autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4
 autocmd FileType gitcommit setlocal colorcolumn=50
+autocmd FileType markdown setlocal wrap
 
 " Try to merge numbers column with errors column.
 if has('patch-8.1.1564')
