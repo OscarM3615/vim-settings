@@ -41,6 +41,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim' " onedark theme
 Plug 'preservim/nerdtree' " files explorer
 Plug 'Xuyuanp/nerdtree-git-plugin' " git status flags on explorer
+Plug 'ryanoasis/vim-devicons' " icons on explorer
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " colours in explorer icons
 Plug 'vim-airline/vim-airline' " enhance the bottom bar
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language server
 Plug 'mattn/emmet-vim' " emmet support
