@@ -1,4 +1,4 @@
-# Vim Settings
+# .dot-files
 
-My .vimrc configuration file.
+System configuration files
 
