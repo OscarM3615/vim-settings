@@ -43,6 +43,7 @@ Plug 'preservim/nerdtree' " files explorer
 Plug 'Xuyuanp/nerdtree-git-plugin' " git status flags on explorer
 Plug 'ryanoasis/vim-devicons' " icons on explorer
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " colours in explorer icons
+Plug 'preservim/tagbar' " code outline
 Plug 'vim-airline/vim-airline' " enhance the bottom bar
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language server
 Plug 'mattn/emmet-vim' " emmet support
@@ -77,6 +78,7 @@ nmap <leader>gs :G<CR>
 nmap <leader>gc :Gcommit<CR>
 nmap <leader>gk :Gpush<CR>
 nmap <leader>gj :Gpull<CR>
+nmap <F8> :TagbarToggle<CR>
 
 inoremap <silent> <C-@> <C-x><C-o>
 inoremap <silent><expr> <TAB>
