@@ -116,6 +116,11 @@ syntax on
 filetype plugin indent on
 colorscheme onedark
 
+" Try to use IBeam cursor.
+let &t_SI = "\<Esc>[6 q"
+let &t_SR = "\<Esc>[6 q"
+let &t_EI = "\<Esc>[6 q"
+
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_splits = 0
 let g:airline#extension#tabline#show_buffers = 0
@@ -137,7 +142,7 @@ let g:vim_http_tempbuffer = 1
 
 let g:NERDTreeDirArrowExpandable = '→'
 let g:NERDTreeDirArrowCollapsible = '↓'
-let NERDTreeIgnore = ['__init__.py', '__pycache__', 'node_modules']
+let NERDTreeIgnore = ['__init__.py', '__pycache__']
 
 " Start NERDTree at startup (only if no files were specified)
 autocmd StdinReadPre * let s:std_in=1
