@@ -108,3 +108,15 @@ alias zshconfig="vim ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 
 unset LESS
+
+function cd() {
+	if [[ -d ./venv ]]; then
+		deactivate
+	fi
+
+	builtin cd $1
+
+	if [[ -d ./venv ]]; then
+		source venv/bin/activate
+	fi
+}
