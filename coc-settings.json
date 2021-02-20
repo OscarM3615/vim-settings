@@ -8,5 +8,6 @@
   "clangd.path": "/home/oscarm3615/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
   "javascript.suggestionActions.enabled": false,
   "javascript.format.semicolons": "insert",
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "prettier.useTabs": true
 }
