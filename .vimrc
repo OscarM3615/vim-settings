@@ -5,6 +5,7 @@ set noexpandtab " use tabs instead of spaces
 set autoindent " enable autoindent
 set colorcolumn=80 " show ruler at column 80
 set encoding=utf-8 " always open with encoding utf-8
+set endofline " always add a blank line to the end of file
 set number " show line numbers
 set cursorline " highlight the current line
 set completeopt=menuone,longest " always show the autocomplete dialog
