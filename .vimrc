@@ -48,6 +48,7 @@ Plug 'preservim/tagbar' " code outline
 Plug 'vim-airline/vim-airline' " enhance the bottom bar
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language server
 Plug 'mattn/emmet-vim' " emmet support
+Plug 'editorconfig/editorconfig-vim' " check for .editorconfig files
 Plug 'https://tpope.io/vim/fugitive.git' " git hints for airline
 Plug 'sheerun/vim-polyglot' " multiple language support
 Plug 'vim-scripts/dbext.vim' " SQL support
