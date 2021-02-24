@@ -81,6 +81,8 @@ nmap <leader>gc :Gcommit<CR>
 nmap <leader>gk :Gpush<CR>
 nmap <leader>gj :Gpull<CR>
 nmap <F8> :TagbarToggle<CR>
+nnoremap <leader>d "_d
+xnoremap <leader>d "_d
 
 inoremap <silent> <C-@> <C-x><C-o>
 inoremap <silent><expr> <TAB>
