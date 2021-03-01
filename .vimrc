@@ -77,9 +77,9 @@ nnoremap <silent> <leader>ot :terminal<CR>
 nmap <leader>gh :diffget //2<CR>
 nmap <leader>gl :diffget //3<CR>
 nmap <leader>gs :G<CR>
-nmap <leader>gc :Gcommit<CR>
-nmap <leader>gk :Gpush<CR>
-nmap <leader>gj :Gpull<CR>
+nmap <leader>gc :Git commit<CR>
+nmap <leader>gk :Git push<CR>
+nmap <leader>gj :Git pull<CR>
 nmap <silent> <F8> :TagbarToggle<CR>
 nnoremap <leader>d "_d
 xnoremap <leader>d "_d
